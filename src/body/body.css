@@ -1,0 +1,38 @@
+.welcome {
+    background: rgb(2, 2, 44);
+    height: 78.6vh;
+    padding: 20px;
+}
+.body-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 2.5rem;
+}
+a.get-started {
+    width: 60%;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: transparent;
+    font-weight: 800;
+    padding: 12px;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin: auto;
+    justify-content: center;
+    display: none;
+}
+@media screen and (max-width: 769px) {
+    a.get-started{
+        display: flex;
+    }
+}
+@media screen and (max-width: 600px) {
+    .body-text{
+        font-size: 2rem;
+    }
+}
